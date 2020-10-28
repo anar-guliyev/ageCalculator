@@ -14,6 +14,7 @@ dateInput.addEventListener("change", event => {
 
 const renderAge = (ms) => {
     let year = ms / 1000 / 60 / 60 / 24 / 366;
+    console.log("Anar");
     let month = (year - (Math.floor(year))) * 12;
     if (month >= 12) {
         month = month - 12;
